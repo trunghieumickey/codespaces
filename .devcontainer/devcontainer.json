@@ -5,11 +5,14 @@
 		"args": { "VARIANT": "ubuntu-22.04" }
 	},
 	"settings": {
-	"files.exclude": {
-		"**/.devcontainer": true
+		"files.exclude": {
+			"**/.devcontainer": true
+		},
+		"workbench.colorTheme": "Default Dark+",
+		"files.autoSave": "off",
+		"window.menuBarVisibility": "classic"
 	},
-    	"workbench.colorTheme": "Default Dark+"
-	},
+	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git",
 	"extensions": [],
 	"remoteUser": "vscode"
 }
