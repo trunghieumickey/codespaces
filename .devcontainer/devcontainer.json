@@ -10,7 +10,10 @@
 		},
 		"workbench.colorTheme": "Default Dark+",
 		"files.autoSave": "off",
-		"window.menuBarVisibility": "classic"
+		"window.menuBarVisibility": "classic",
+		"files.insertFinalNewline": true,
+    		"explorer.sortOrder": "type",
+    		"search.sortOrder": "type"
 	},
 	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git",
 	"extensions": [],
