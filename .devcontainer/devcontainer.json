@@ -17,5 +17,9 @@
 	},
 	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git",
 	"extensions": [],
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+	"features": {
+		"desktop-lite": "latest",
+		"powershell": "latest"
+	}
 }
