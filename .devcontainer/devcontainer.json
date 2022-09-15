@@ -15,11 +15,10 @@
     		"explorer.sortOrder": "type",
     		"search.sortOrder": "type"
 	},
-	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git",
+	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git && sudo apt update && sudo apt upgrade -y",
 	"extensions": [],
 	"remoteUser": "vscode",
 	"features": {
-		"desktop-lite": "latest",
 		"powershell": "latest"
 	}
 }
