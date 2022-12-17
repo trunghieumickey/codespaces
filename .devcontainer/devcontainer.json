@@ -15,10 +15,13 @@
     		"explorer.sortOrder": "type",
     		"search.sortOrder": "type"
 	},
-	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git && sudo apt update && sudo apt upgrade -y",
+	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git && sudo apt update && sudo apt full-upgrade -y",
 	"extensions": [],
 	"remoteUser": "vscode",
 	"features": {
-		"powershell": "latest"
+		"powershell": "latest",
+		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+       			"packages": "build-essential"
+    		}
 	}
 }
