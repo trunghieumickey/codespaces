@@ -8,7 +8,7 @@
 		"files.exclude": {
 			"**/.devcontainer": true
 		},
-		"workbench.colorTheme": "Default Dark+",
+		"workbench.colorTheme": "Default Dark Modern",
 		"files.autoSave": "off",
 		"window.menuBarVisibility": "classic",
 		"files.insertFinalNewline": true,
@@ -16,12 +16,12 @@
     		"search.sortOrder": "type"
 	},
 	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git && sudo apt update && sudo apt full-upgrade -y",
-	"extensions": [],
+	"extensions": ["ms-python.python","ms-toolsai.jupyter"],
 	"remoteUser": "vscode",
 	"features": {
 		"powershell": "latest",
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:latest": {
-       			"packages": "build-essential,gdb"
+       			"packages": "build-essential,gdb,python3-ipykernel"
     		}
 	}
 }
