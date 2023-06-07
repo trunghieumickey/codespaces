@@ -13,7 +13,8 @@
 		"window.menuBarVisibility": "classic",
 		"files.insertFinalNewline": true,
     		"explorer.sortOrder": "type",
-    		"search.sortOrder": "type"
+    		"search.sortOrder": "type",
+		"terminal.integrated.defaultProfile.linux": "pwsh"
 	},
 	"postCreateCommand": "sudo rm -rf /workspaces/codespaces/.git && sudo apt update && sudo apt full-upgrade -y",
 	"extensions": ["ms-python.python","ms-toolsai.jupyter"],
@@ -21,7 +22,7 @@
 	"features": {
 		"powershell": "latest",
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:latest": {
-       			"packages": "build-essential,gdb,python3-ipykernel"
+       			"packages": "build-essential,gdb,python3-ipykernel,python3-numpy,python3-matplotlib"
     		}
 	}
 }
