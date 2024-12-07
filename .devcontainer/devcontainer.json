@@ -16,7 +16,7 @@
     		"search.sortOrder": "type",
 		"terminal.integrated.defaultProfile.linux": "pwsh"
 	},
-	"postCreateCommand": "sudo bash -c 'curl -fsSL https://deb.nodesource.com/setup_current.x | bash - && rm -rf /workspaces/codespaces/.git && apt update && apt full-upgrade -y'",
+	"postCreateCommand": "sudo bash -c 'rm -rf /workspaces/codespaces/.git && apt update && apt full-upgrade -y'",
 	"extensions": [],
 	"remoteUser": "vscode",
 	"features": {
