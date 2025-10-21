@@ -2,7 +2,7 @@
 	"name": "Ubuntu",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "ubuntu-24.04" }
+		"args": { "VARIANT": "ubuntu" }
 	},
 	"settings": {
 		"files.exclude": {
